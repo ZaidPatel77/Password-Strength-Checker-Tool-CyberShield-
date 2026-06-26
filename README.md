@@ -42,4 +42,4 @@ The objective of this project is to spread awareness about password security by 
 
 📄 License
 
-This project is created for educational purposes under the **GTU Skill-Based Training Program (SBTP)
+This project is created for educational purposes under the GTU Skill-Based Training Program (SBTP)
