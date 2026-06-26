@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield Password Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Locks -->
+
+    <div class="bg-lock lock1">🔐</div>
+    <div class="bg-lock lock2">🔐</div>
+    <div class="bg-lock lock3">🔐</div>
+    <div class="bg-lock lock4">🔐</div>
+    <div class="bg-lock lock5">🔐</div>
+    <div class="bg-lock lock6">🔐</div>
+    <div class="bg-lock lock7">🔐</div>
+    <div class="bg-lock lock8">🔐</div>
+
+    <div class="container">
+
+        <h1>🛡️ CyberShield</h1>
+        <p class="subtitle">Password Security Analyzer</p>
+
+        <div class="input-group">
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your password..."
+            >
+            <button id="toggleBtn">🙈</button>
+        </div>
+
+        <div class="strength-bar">
+            <div id="bar"></div>
+        </div>
+
+        <div class="emoji-box">
+            <span id="emoji">🔐</span>
+        </div>
+
+        <h2 id="strengthText">
+            Awaiting Analysis
+        </h2>
+
+        <p id="message">
+            Awaiting Password Analysis...
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Entropy Score</h3>
+                <p id="entropyScore">0 / 100</p>
+            </div>
+
+            <div class="card">
+                <h3>Security Level</h3>
+                <p id="securityLevel">-</p>
+            </div>
+
+        </div>
+
+        <div class="card crack-card">
+            <h3>Estimated Crack Time</h3>
+            <p id="crackTime">-</p>
+        </div>
+
+        <div class="checklist">
+
+            <div id="lengthCheck">❌ 8+ Characters</div>
+            <div id="upperCheck">❌ Uppercase Letter</div>
+            <div id="lowerCheck">❌ Lowercase Letter</div>
+            <div id="numberCheck">❌ Number</div>
+            <div id="specialCheck">❌ Special Character</div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
